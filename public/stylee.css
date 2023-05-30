@@ -1,0 +1,367 @@
+*{
+    padding: 0 ;
+    /* padding-left: -90px; */
+    margin: 0;
+    box-sizing:border-box;
+    /* right:auto; */
+    /* height: auto; */
+    /* width:90%;  */
+    /* margin-bottom: 20; */
+    font-family: sans-serif;
+    
+}
+body{
+    /* height:auto; */
+   
+   
+
+   /* background-color:goldenrod; */
+   background: cover;
+   margin: -5px;
+}
+.hero{
+    height:100vh;
+
+    background-color:skyblue;
+    background-size: cover;
+    background-position: center;
+}
+.hero .scroll i{
+    position: fixed;
+    top: 90px;
+    right:50px;
+    display: flex;
+    flex-direction:column;
+    float: left;
+    border:10px solid white;
+    border-radius: 70px;
+}
+
+.hero h2{
+    color: white;
+    font-size: 40px;
+    width: 20%;
+    font-style: italic;
+}
+.hero h2 span{
+    color:darkblue;
+}
+.hero nav{
+    position: relative;
+    /* display: flex;
+    flex-direction: row;
+    float: right; */
+    align-items: right;
+    padding:20px 5px;
+    background:darkblue;
+   
+}
+.hero nav ul{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    text-align: center;
+    justify-content: space-between;
+}
+.hero nav ul a{
+    color: white;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.hero nav ul  a:hover{
+    color:paleturquoise;
+    transition: 1s;
+}
+/* .btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+} */
+.content{
+    color: white;
+    top:180;
+    left:150;
+    position: absolute;
+    
+}
+/* .content:hover{
+    transition: 2s;
+    transform: translateY(600px) ;
+} */
+ .content h3{
+    width:20%;
+    color:white ;
+    font-style: italic;
+    font-size: 45px;
+    margin-bottom: 20px;
+} 
+ .content h3:hover{
+     /* transition: 1s; */
+    /* transform: translateX(300px); */
+ } 
+ .content h2{
+    font-size: 40px;
+    color:white;
+}
+.content h4{
+    font-size: 35px;
+    color:white;
+} 
+/* .content h4:hover{
+    transition: 1s;
+    transform: scale(300);
+} */
+.con img{
+    /* height: auto; */
+    /* width:400px; */
+    top:180px;
+    right:120px;
+    margin-top: -65%;
+    margin-left: 150%;
+    
+    /* float:right; */
+}
+ /* .con img:hover{
+        transition: 1s;
+       transform: translateX(200px);
+ } */
+/* .subscribe form{
+    width:s400px;
+    position: relative;
+}
+.subscribe form input:first-child{
+display: inline-block;
+width: 100%;
+padding:  15px 120px 13px 14px;
+border:3px solid orange;
+border-radius: 40;
+}
+.subscribe form input:last-child{
+    display: inline-block;
+    padding: 10px 20px ;
+    border: none;
+    background-color: orange;
+    color: white;
+    top:7px;
+    right:7px;
+    border-radius: 40px;
+    position: absolute;
+} */
+.aboutme{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:palegreen;
+
+}
+.aboutme img{
+    height: auto;
+    width:400px;
+    margin-left: 5%;
+}
+.aboutcontent{
+    color:black;
+    margin-left: 5%;
+}
+.main{
+    display: flex;
+} 
+/* .main img:hover{
+    transition: 1s;
+    transform: rotateX(360deg);
+} */
+.aboutcontent h3{
+    color:darkgreen; 
+    font-size: 70px;
+
+}
+ul
+{
+    margin-left: 300px;
+}
+a{
+    width:100px;
+    margin-right: 20px;
+    /* justify-content: center; */
+}
+.aboutcontent h5{
+    color:darkgreen;
+    font-size: 50px;
+}
+.aboutcontent p{
+    color:darkgreen;
+    font-size: 25px;
+}
+.btn{
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition:.5s;
+    padding:10px 20px;
+    top:20%;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+}
+
+/* SKILLS */
+.skills{
+    background-color: pink;
+    width:100%;
+}
+.footer h4{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 40px;
+}
+.footer h5{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 30px;
+}
+.title h2{
+    color:purple;
+    font-size: 70px;
+    text-align: center;
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height:300px;
+    width:270px;
+    background-color:grey;
+    border-radius: 25px;
+    margin:12px;
+}
+.card h4{
+    /* color: white; */
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.para p{
+    color:white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.para .button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition:.5s;
+    padding:10px 20px;
+    top:20%;
+    display:flexbox;
+}
+.para .button:hover{
+    /* color:black; */
+    background-color: transparent;
+    border:2px solid white;
+    cursor:pointer;
+}
+.card i{
+    color:wheat;
+    font-size: 30;
+    text-align: center;
+    margin:15px;
+    display: block;
+}
+/* .hire{
+    width:100%;
+    align-items: center;
+    background-color:plum;
+    justify-content: center;
+    display: flex;
+} */
+.footer{
+    width: 100%;
+    /* display:flex; */
+    /* flex-direction: row; */
+    text-align: center;
+    background-color:purple;
+    font-weight: bold;
+    /* color: black; */
+    justify-content: center;
+ }
+.footer .author {
+    /* position: relative;
+    text-align: center; */
+    bottom:10px;
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+}
+.footer .reach{
+    bottom:20;
+    align-items:center;
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+}
+.footer .socialmedia i{
+    width:30px;
+    height: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    background:pink;
+    border-radius: 50%;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin:20px 10px;
+    font-size: 20px;
+} 
+.footer .socialmedia i:hover{
+    background-color: transparent;
+    border:2px solid white;
+    cursor:pointer;
+    transform: scale(1.5,1.5);
+    transition:-5s
+}
+label{
+    color: purple;
+    font-size: 20;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.contact{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+    background-color: plum;
+    /* margin:100; */
+}
+.contact .cardd{
+    height:100px;
+    width:210px;
+    background-color:lavender;
+    border-radius: 25px;
+    cursor: pointer;
+    margin:12px;
+
+}
+.contact .cardd .email{
+    /* margin-top: 30px; */
+    text-align: center;
+}
